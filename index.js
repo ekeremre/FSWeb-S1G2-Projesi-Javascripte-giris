@@ -184,7 +184,7 @@ Aşağıdakileri cocukSarkisi fonksiyonunda yap:
 */
 function cocukSarkisi(sayı) {
   for (let sayı = 5; sayı > 0; sayı--) {
-    console.log(sayı +" küçük maymun yatakta zıplamış, biri düşüp başını çarpmış, Anne doktoru aramış, Doktor çok kızmış: Bir daha yatakta zıplamak yok!");
+    return(sayı +" küçük maymun yatakta zıplamış, biri düşüp başını çarpmış, Anne doktoru aramış, Doktor çok kızmış: Bir daha yatakta zıplamak yok!");
   }
 }
 
@@ -209,7 +209,7 @@ function notHesapla(not) {
   if (not >= 90) {
     return 'A aldın' ;
   } else if (not >= 80) {
-    return 'B aldın';
+    return 'B aldın'; 
   } else if (not >= 70) {
     return 'C aldın';
   } else if (not >= 60) {
